@@ -1,0 +1,9 @@
+
+Dans le robots.txt, Il y a aussi un dossier .hidden
+
+On peut y voir une arborescence de dossier infini.
+Il y a qu'une seule solution la, c'est de scripter quelque chose pour lire tous les fichiers
+Dans le dossier Ressources il y a un script fait en python pour trouver le flag. 
+Ca aurait etait impossible a la main. 
+
+Il faut le lancer avec python3 script.py

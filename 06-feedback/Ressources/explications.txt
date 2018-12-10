@@ -1,0 +1,5 @@
+Sur la page feedback, une faille XSS est presente.
+Ce n'est pas vriment une faille XSS car il faut juste ecrire script, et normalement il faut les balises script.
+
+une faille XSS peut permettre de rediriger vers un site / page pour detourner les cookies d'un admin ou d'un utilisateur.
+Et vu que certains sites stock encore les données en clair c'est possible de les recupérer.

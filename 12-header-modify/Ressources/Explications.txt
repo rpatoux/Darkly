@@ -1,0 +1,2 @@
+En faisant un curl pour changer le header de la page :"curl -H "User-Agent:ft_bornToSec" -H "referer:https://www.nsa.gov/" http://e1r10p8:8080/\?page\=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c"
+Et en inspectant la page, ou en grep, on a le flag qui apparait.

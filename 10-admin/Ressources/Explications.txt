@@ -1,0 +1,6 @@
+Quand on rentre "/robots.txt" dans l'url de la page, on est renvoyer vers une page ou on peut acceder a deux dossiers
+En rentrant dans un des deux dossiers, on a acces a un fichier htpasswd avec un mot de passe crypté en md5 : "root:8621ffdbc5698829397d97767ac13db3"
+Quand on le decrypte, ce mot de passe donne : "dragon"
+
+
+Sur l'url :"/admin" cela nous donne acces au compte root et au flag correspondant

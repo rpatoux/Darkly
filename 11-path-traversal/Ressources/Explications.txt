@@ -1,0 +1,4 @@
+Faille de directory transversal
+
+On peut donc remonter dans les dossiers du site: cette fois ci a chaque fois que l'on remonte d'un niveau on a un message different.
+Pour enfin avoir le flag avec : "?page=../../../../../../../../etc/passwd"

@@ -1,0 +1,3 @@
+En regardant les cookies du site, 
+Il y a un cookie qui s'appelle "I_am_admin" avec comme value un long texte qui est en fait un mot hasher en md5.
+En utiliser un decrypteur, on se rend compte que cela veut dire 'false', il suffit ensuite de hasher true et remplacer le mot hasher en editant la valeur du cookie.

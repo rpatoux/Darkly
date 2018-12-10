@@ -1,0 +1,7 @@
+Sur la homepage, il y a une photo de la NSA. qui est chargé par '?page=media&src='.
+C'est une faille qui genere une XSS.
+Il suffit de lui passer un lien en dur pour changer la redirection
+?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTs8L3NjcmlwdD4=
+
+C'est sans doute pour faire une redirection avec une XSS d'un site a un autre, 
+ou bien de recuperer les cookies, qui sur certains sites, stock des infos comme des id/password

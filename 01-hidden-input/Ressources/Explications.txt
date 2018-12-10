@@ -1,0 +1,5 @@
+En arrivant sur la page "i forgot my password" et en inspectant le bouton submit, 
+on peut changer la value de l'input qui est "webmaster@borntosec.com" pour l'envoyer a une autre addresse mail.
+
+
+Il faudrait éviter de mettre des infos comme ca dans un formulaire et le gerer en back.

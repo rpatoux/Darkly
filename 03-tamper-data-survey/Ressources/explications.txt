@@ -1,0 +1,4 @@
+Au niveau de la page SURVEY, on tombe sur un classement de plusieurs personnes avec un nombre de points. 
+On peut changer la value (et seulement la value, pas ce qui est affiché) des valeurs du SELECT.
+
+Cela peut servir pour tricher dans les moyennes si par exemple la value 1 vaut 30 quand les moyennes sont faits cela fausse totalement le classement 

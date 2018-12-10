@@ -1,0 +1,8 @@
+Une des failles les plus connus est celle de mettre un mot de passe trop commun, trop connu.
+
+Il faut donc chercher les mots de passes les plus utilisés et les essayer, avec un script ou a la main, j'ai opté 
+par feignantise a la main et cela donne :
+
+root : shadow
+
+https://datanews.levif.be/ict/actualite/le-top-25-des-mots-de-passe-les-plus-courants-et-les-plus-faibles/article-normal-292823.html?cookie_check=1543856805

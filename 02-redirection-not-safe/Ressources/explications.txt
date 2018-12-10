@@ -1,0 +1,7 @@
+
+Dans le footer du site, il y a les 3 licones avec des liens pour les reseaux sociaux 
+(facebook, twitter et instagram).
+Le site utilise une page redirect qui prend en params un "site" On peut y passer un autre site comme par exemple : http://www.apple.fr. 
+
+
+Je pense que cette faille sers a rediriger des utilisateurs sur des sites de phishing.
